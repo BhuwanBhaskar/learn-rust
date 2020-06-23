@@ -5,6 +5,9 @@ pub enum Direction {
     West,
 }
 
+/**
+ * Check if direction is north
+ */
 pub fn is_north(dir: Direction) -> bool {
     match dir {
         Direction::North => true,
